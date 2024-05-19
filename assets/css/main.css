@@ -1,0 +1,61 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; 
+}
+
+
+.contenitore {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('../img/bg-home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden; 
+}
+
+#gallery {
+    max-height: 100%;
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+.photo {
+    display: none;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.visible {
+    display: block;
+}
+
+.navbar-nav .active a {
+    color: #a86969; 
+    font-weight: bold; 
+}
+
+/* Ricerca */
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+}

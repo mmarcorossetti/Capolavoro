@@ -1,0 +1,13 @@
+PROGETTO SITO WEB --> raccolta foto focalizzata sugli animali
+
+Mappatura del sito:
+
+- HOMEPAGE
+- ANIMALI ACQUATICI
+- ANIMALI TERRESTRI
+- ANIMALI VOLATILI 
+- RICERCA AVANZATA
+- CONTATTO 
+
+
+API WEB: https://www.pexels.com/api/

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Animal gallery</title>
+
+        <!-- inclusione file css -->
+        <link rel="stylesheet" href="assets/css/main.css">
+
+        <!-- connessione documento HTML al foglio di stile di Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-auto" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Homepage</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="animali-acquatici.html">Animali Acquatici</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="animali-terrestri.html">Animali Terrestri</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="animali-volatili.html">Animali Volatili</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ricerca-avanzata.html">Ricerca Avanzata</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contatti.html">Contatti</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+       
+
+        <div class="contenitore">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center my-auto">
+                    <div class="px-2 py-1">
+                        <h2 class="fw-bold">Il Rosso Gallery</h2>
+                        <p>
+                            <b> Questo sito è una galleria di foto scattate
+                            <br>
+                            durantenumerosi viaggi nei posti 
+                            <br>
+                            più belli del mondo dove la natura 
+                            <br>
+                            è sovrana e l'uomo schiavo. </b>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div id="gallery" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/mini-panda.jpg" class="d-block w-100" alt="Slide 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/volpe-neve.jpg" class="d-block w-100" alt="Slide 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/stella-marina.jpg" class="d-block w-100" alt="Slide 3">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#gallery" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#gallery" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- JS di Bootstrap (libreria Popper.js responsabile della gestione del posizionamento dinamico degli elementi) -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
